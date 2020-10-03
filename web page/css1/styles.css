@@ -1,0 +1,45 @@
+body {
+  background-color: #fecea8;
+}
+
+
+
+h1 {
+  color: #e84a5f;
+  font-style: italic;
+    font-family: 'Simonetta', cursive;
+}
+
+h3 {
+  color: #e84a5f;
+  font-style: italic;
+  font-family: 'Simonetta', cursive;
+}
+
+h2 {
+  color: #e84a5f;
+  font-style: italic;
+    font-family: 'Simonetta', cursive;
+}
+
+
+p{
+  font-style: italic;
+  font-family: 'Simonetta', cursive;
+}
+
+table {
+  color: #e84a5f;
+  font-style: italic;
+  font-family: 'Simonetta', cursive;
+}
+
+ol {
+  font-style: italic;
+  font-family: 'Simonetta', cursive;
+}
+
+a {
+  font-style: italic;
+  font-family: 'Simonetta', cursive;
+}
