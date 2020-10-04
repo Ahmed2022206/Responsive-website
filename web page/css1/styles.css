@@ -1,20 +1,13 @@
+.container {
+  width: 1520px;
+  line-height: 1.5;
+}
+
+
 body {
   background-color: #fecea8;
 }
 
-
-
-h1 {
-  color: #e84a5f;
-  font-style: italic;
-    font-family: 'Simonetta', cursive;
-}
-
-h3 {
-  color: #e84a5f;
-  font-style: italic;
-  font-family: 'Simonetta', cursive;
-}
 
 h2 {
   color: #e84a5f;
@@ -22,24 +15,62 @@ h2 {
     font-family: 'Simonetta', cursive;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #ff847c;
+  border-width: 6px;
 
-p{
-  font-style: italic;
-  font-family: 'Simonetta', cursive;
+  width: 100%;
 }
 
-table {
-  color: #e84a5f;
-  font-style: italic;
-  font-family: 'Simonetta', cursive;
-}
 
-ol {
-  font-style: italic;
-  font-family: 'Simonetta', cursive;
-}
+@media screen and (max-width: 1025px) {
+  .container {
+    width: 100%;
+  }
 
-a {
-  font-style: italic;
-  font-family: 'Simonetta', cursive;
+  h2 {
+    font-size: 500%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  hr {
+    border-width: 12px;
+  }
+
+  .i-1 {
+   font-size: 100%;
+  }
+
+
+  .i-2 {
+     font-size: 100%;
+  }
+
+  .i-3 {
+    font-size: 100%;
+  }
+
+  .l-1 {
+    font-size: 100%;
+  }
+
+  .l-2 {
+    font-size: 100%;
+  }
+
+  .t-1 {
+    font-size: 100%;
+  }
+
+  .bottom-container {
+     text-align: left;
+     font-size: 200%;
+  }
 }
